@@ -1,7 +1,17 @@
-# Ignore everything
-*
-# Allow directories
-!/*
+# Keep default files
+!.gitignore
+!collors.conf
+!README.md
 
-# Allow folders whose name contains "custom"
-!/conf/*custom*/**
+# ignore all other folders
+effects/
+scripts/
+shaders/
+
+# all conf
+*.conf
+*.sh
+
+# except my config
+!conf/
+!conf/**/custom.conf
