@@ -1,0 +1,7 @@
+# Ignore everything
+*
+# Allow directories
+!/*
+
+# Allow folders whose name contains "custom"
+!/conf/*custom*/**
